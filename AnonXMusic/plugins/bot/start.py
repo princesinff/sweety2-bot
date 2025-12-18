@@ -26,7 +26,7 @@ from strings import get_string
 
 #--------------------------
 
-DEEP_IMG = "https://files.catbox.moe/cteuxa.jpg"
+DEEP_IMG = "https://i.ibb.co/nqhNVMRC/IMG-20251218-194008-967.jpg"
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -195,3 +195,4 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
         except Exception as ex:
             print(ex)
+
